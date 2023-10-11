@@ -1,0 +1,13 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #121212;
+  --color-fill: #1d1d1d;
+  --color-fill-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --color-light: #bea69e;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
