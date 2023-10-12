@@ -4,6 +4,7 @@
   --color-fill: #1d1d1d;
   --color-fill-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   --color-light: #bea69e;
+  --color-grey: rgba(255, 255, 255, 0.5);
 }
 
 body {

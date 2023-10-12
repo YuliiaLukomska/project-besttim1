@@ -22,3 +22,8 @@
     padding-right: 100px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
