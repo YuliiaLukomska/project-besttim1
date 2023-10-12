@@ -1,16 +1,16 @@
 .advertisement {
-    margin-bottom: 80px;
+    padding: 40px 0;
 }
 
 @media (min-width: 768px) {
     .advertisement {
-        margin-bottom: 100px;
+        padding: 50px 0;
     }
 }
 
 @media (min-width: 1280px) {
     .advertisement {
-        margin-bottom: 150px;
+        padding: 75px 0;
     }
 }
 
