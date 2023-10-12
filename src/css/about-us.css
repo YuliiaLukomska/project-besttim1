@@ -1,1 +1,73 @@
+.about-us-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-us-header {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.accent {
+  color: var(--color-light);
+}
 
+.about-us-text {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+.about-us-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .about-us-header {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+  }
+  .about-us-img {
+    width: 704px;
+    height: 340px;
+  }
+  .about-us-wrapper {
+    gap: 50px;
+  }
+  .about-us-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .about-us-item {
+    max-width: 280px;
+  }
+  .about-us-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .about-us-wrapper {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .about-us-img {
+    width: 488px;
+    height: 260px;
+  }
+  .about-us-list {
+    gap: 20px;
+  }
+}
