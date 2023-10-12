@@ -1,1 +1,44 @@
-<section></section>
+<section>
+    <div class="container container-signup">
+        <div>
+            <h2 class="signUp-title">Sign <span class="signUp-span">Up</span></h2>
+            <p class="signup-paragraph">Please use the form below to contact us. Enter your name, email, and message and
+                we'll get back to you shortly.</p>
+            <form class="form-signup">
+                <label class="label-signup">
+                    <input class="input-signup" type="name" id="name" name="name" placeholder="Enter your name"
+                        pattern="[A-Za-zА-Яа-яЁё]{1,30}" required>
+                </label>
+            </form>
+            <form class="form-signup">
+                <label class="label-signup">
+                    <input class="input-signup" type="email" id="email" name="email" placeholder="Enter your email"
+                        required>
+                </label>
+            </form>
+            <form class="form-signup">
+                <label class="label-signup">
+                    <input class="input-signup-message" type="message" id="message" name="massage" placeholder="Message"
+                        rows="6">
+                </label>
+                <button class="signup-button" type="submit">SEND</button>
+            </form>
+
+            <p class="confirmation-paragraph">By clicking on “Send” button, you agree to our
+                <span class="confirmation-span">Privacy Policy,</span>
+                and allow Promodo to use this information for marketing purposes.
+            </p>
+        </div>
+        <div class="container-img">
+            <div class="container-camera">
+                <img class="signup-img" srcset="./img/sign-up/camera.png  1x, ./img/sign-up/camera@2x.png 2x"
+                    src="./img/sign-up/camera.png" alt="camera" width="163">
+            </div>
+            <div class="container-video-camera">
+                <img class="signup-second-img"
+                    srcset="./img/sign-up/video-camera.png 1x, ./img/sign-up/video-camera@2x.png 2x"
+                    src="./img/sign-up/video-camera.png" alt="video-camera" width="254">
+            </div>
+        </div>
+    </div>
+</section>
