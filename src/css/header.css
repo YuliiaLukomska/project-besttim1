@@ -1,0 +1,19 @@
+.container-header{padding: 20px;}
+.nav-container{width: 335px;
+border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: var(--black, #121212);
+      padding: 15px 20px;
+    display: flex;
+align-items: center}
+ .logo-svg{fill:var(--color-white, #ffffff);}
+.header-singup-container{display:flex;
+align-items: center;justify-content: center;
+    width:32px;height: 32px;
+background-color:#1D1D1D;
+border-radius: 50%;
+fill:rgba(190, 166, 158, 0.4)}
+.menu{padding: 0;border:0;
+}
+@media screen and (max-width:1280px){.nav-list{display: none;}}
+  
