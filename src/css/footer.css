@@ -4,6 +4,7 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
+
 .footer-container {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
@@ -12,10 +13,10 @@
   padding-top: 40px;
   padding-left: 20px;
 }
-.footer-logo-link {
-}
+
 .footer-logo {
   fill: var(--color-white);
+  flex-shrink: 0;
 }
 
 .contacts {
@@ -30,7 +31,7 @@
 .footer-block {
   display: flex;
   gap: 40px;
-  margin-bottom: 75px;
+  padding-bottom: 75px;
 }
 
 .footer-social > li:not(:last-child) {
@@ -42,7 +43,7 @@
 }
 .social-link,
 .footer-nav-link {
-  font-family: inherit;
+  font-family: 'DM Sans', sans-serif;
   color: inherit;
   font-size: 14px;
   font-style: normal;
@@ -64,6 +65,10 @@
   border-radius: 12px;
   padding: 20px 0 20px 18px;
   font-size: 16px;
+  line-height: 1.25;
+}
+.footer-input::placeholder {
+  opacity: 0.7;
 }
 
 .footer-btn {
@@ -81,8 +86,98 @@
 }
 
 .footer-text {
-  font-size: 12px;
-  font-weight: 400;
   display: flex;
   gap: 72px;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url('/img/footer/footer-tablet.png');
+  }
+
+  .footer-container {
+    padding-top: 50px;
+    padding-left: 32px;
+  }
+  .footer-box {
+    display: flex;
+  }
+
+  .footer-logo {
+    width: 123px;
+    height: 16px;
+  }
+  .contacts {
+    padding-top: 25px;
+    width: 142px;
+  }
+
+  .footer-block {
+    gap: 25px;
+    padding-bottom: 74px;
+    padding-right: 59px;
+    padding-left: 58px;
+  }
+
+  .footer-input {
+    width: 178px;
+    height: 60px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 1278px) {
+  .footer {
+    background-image: url('/img/footer/footer-desk.png');
+  }
+
+  .footer-container {
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+
+  .footer-block {
+    gap: 50px;
+    padding-bottom: 50px;
+    padding-right: 135px;
+    padding-left: 285px;
+  }
+
+  .footer-input {
+    width: 216px;
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    background-image: url('/img/footer/footer-desk.png');
+  }
+
+  .footer-container {
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+
+  .footer-block {
+    gap: 50px;
+    padding-bottom: 50px;
+    padding-right: 135px;
+    padding-left: 285px;
+  }
+
+  .footer-input {
+    width: 216px;
+    height: 60px;
+  }
 }
