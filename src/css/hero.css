@@ -1,12 +1,5 @@
 .hero-section {
-  padding-top: 20px;
-  padding-bottom: 80px;
-}
-
-@media screen and (min-width: 768px) {
-    .hero-section {
-        padding-top: 40px;
-    }
+  padding-bottom: 40px;
 }
 
 .hero-container {
@@ -32,8 +25,7 @@
 
 .hero-text {
   font-size: 14px;
-  font-weight: 400;
-  line-height: 1.3; /* 128.571% */
+  line-height: 1.28; /* 128.571% */
   letter-spacing: -0.02em;
   margin-bottom: 40px;
 }
@@ -50,6 +42,7 @@
 
 .hero-link {
   display: flex;
+  gap: 4px;
 }
 
 .hero-link-text {
@@ -58,7 +51,6 @@
   font-size: 14px;
   line-height: 1.3; /* 128.571% */
   letter-spacing: -0.04em;
-  margin-right: 4px;
 }
 
 .arrow-icon {
@@ -75,10 +67,12 @@
   padding: 12px;
   background-color: var(--color-light);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
 }
 .hero-star-img {
+  fill: transparent;
+  stroke: var(--color-black);
 }
 
 .hero-reviews-text {
@@ -93,9 +87,108 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28; /* 128.571% */
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-grey);
+  margin-bottom: 4px;
 }
 
 .hero-man-icon {
-    margin: auto;
+  margin: auto;
+}
+
+/* Media */
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 20px;
+  }
+
+  .hero-container {
+    width: 704px;
+    padding: 64px 32px 0;
+  }
+
+  .hero-title {
+    width: 504px;
+    font-size: 60px;
+    line-height: 1.06;
+  }
+
+  .hero-text {
+    width: 418px;
+  }
+
+  .response-block {
+    margin-bottom: 40px;
+  }
+
+  .hero-students-img {
+    width: 137px;
+    margin-bottom: 0;
+  }
+  .hero-students {
+    display: flex;
+    gap: 12px;
+  }
+
+  .hero-link {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero-link-text {
+    font-size: 16px;
+    line-height: 1.25; /* 125% */
+    width: 82px;
+  }
+
+  .hero-star-icon {
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-reviews-text {
+    line-height: 1.25;
+  }
+  .hero-reviews-accent {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+
+  .hero-man-icon {
+    width: 393px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-section {
+    padding-top: 60px;
+  }
+
+  .hero-container {
+    display: flex;
+    gap: 20px;
+    width: 1080px;
+    padding: 80px 50px 0;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    width: 538px;
+    font-size: 64px;
+  }
+
+  .hero-text {
+    margin-bottom: 136px;
+  }
+
+  .hero-right {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .hero-man-icon {
+    width: 397px;
+  }
 }
