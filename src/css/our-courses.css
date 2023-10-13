@@ -5,8 +5,11 @@
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 .courses-about {
+    width: 1081px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -77,6 +80,10 @@ ol li:before {
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 50px;
+    padding-bottom: 180px;
 }
 .courses-text {
     width: 283px;
@@ -87,4 +94,7 @@ ol li:before {
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -0.02em;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
 }
