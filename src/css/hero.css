@@ -56,6 +56,21 @@
 .arrow-icon {
   fill: var(--color-white);
   margin: auto 0;
+  animation: bounce 2s infinite reverse;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .hero-reviews-block {
