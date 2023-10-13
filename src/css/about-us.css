@@ -16,6 +16,7 @@
 .about-us-img {
   width: 335px;
   height: 209px;
+  object-fit: contain;
 }
 .about-us-item {
   flex-basis: 100%;
