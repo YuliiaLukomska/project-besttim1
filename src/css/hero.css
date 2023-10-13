@@ -192,3 +192,10 @@
     width: 397px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    gap: 155px;
+    width: 1240px;
+  }
+}
