@@ -1,0 +1,72 @@
+.reviews-section{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.reviews-title{
+    color: #FFF;
+font-size: 28px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.07em;
+margin-bottom: 40px;
+}
+
+.reviews-item{
+    padding: 20px;
+    border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+}
+.reviews-item:last-child{
+    display: none;
+}
+.student-container{
+    display: flex;
+}
+.student-photo{
+    width: 56px;
+height: 56px;
+border-radius: 50%;
+}
+.student-info-container{
+margin: 6px 0 6px 10px;
+}
+.student-name{
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+margin-bottom: 4px;
+}
+.student-p{
+    color: rgba(255, 255, 255, 0.50);
+font-size: 12px;
+font-weight: 400;
+line-height: 1.33; 
+letter-spacing: -0.02em;
+}
+.stars-list{
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+    margin-left: 66px;
+    margin-bottom: 20px;
+}
+.star-item{
+    list-style-type:none
+}
+.star-shaded{
+    fill: #BEA69E;
+}
+
+.star-transparent{
+    fill: #414141;
+}
+
+.reviews-text{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29; 
+    letter-spacing: -0.02em;
+}
+
