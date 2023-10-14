@@ -1,17 +1,12 @@
 .reviews-section{
-<<<<<<< Updated upstream
     padding-top: 40px;
     padding-bottom: 80px;
-=======
     max-width: 335px;
->>>>>>> Stashed changes
 }
 .reviews-title{
-    color: #FFF;
 font-size: 28px;
 font-weight: 500;
 line-height: 1.14;
-<<<<<<< Updated upstream
 letter-spacing: -0.07em;
 margin-bottom: 40px;
 }
@@ -23,29 +18,26 @@ border: 1px solid rgba(255, 255, 255, 0.20);
 }
 .reviews-item:last-child{
     display: none;
-=======
 letter-spacing: -0.04em;
 text-align: left;
 }
-.reviews-list{
-}
+
 .reviews-item{
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
     padding: 20px;
->>>>>>> Stashed changes
 }
 .student-container{
     display: flex;
+    gap: 10p;
 }
-<<<<<<< Updated upstream
 .student-photo{
     width: 56px;
 height: 56px;
 border-radius: 50%;
 }
 .student-info-container{
-margin: 6px 0 6px 10px;
+margin: auto 0;
 }
 .student-name{
     color: #FFF;
@@ -80,15 +72,13 @@ letter-spacing: -0.02em;
 }
 
 .reviews-text{
-    color: #FFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29; 
     letter-spacing: -0.02em;
 }
 
-=======
 .student-info-container{
-    margin: 6px 0 6px 10px;
+    margin: auto 10px;
 }
->>>>>>> Stashed changes
+
