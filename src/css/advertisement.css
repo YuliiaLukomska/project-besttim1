@@ -28,12 +28,14 @@
 }
 
 .svg-vector {
-    fill: white;
+    stroke-width: 1px;
+    stroke: rgba(255, 255, 255, 0.20);
+    min-width: 375px;
 }
 
 @media screen and (min-width: 768px) {
     .svg-vector {
-        width: 768px;
+        min-width: 768px;
     }
 }
 
@@ -50,6 +52,7 @@
 }
 
 .marquee {
+    overflow: hidden;
     color: var(--color-light);
     font-size: 28px;
     font-style: normal;
