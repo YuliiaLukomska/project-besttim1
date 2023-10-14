@@ -35,7 +35,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  padding: 0 75px;
 }
 @media screen and (min-width: 768px) {
   .our-ment-ul {
@@ -44,7 +43,6 @@
     padding: 0 108px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .our-ment-ul {
     padding: 0 23px;
@@ -55,6 +53,7 @@
     padding: 0 103px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .our-ment-li {
     flex-basis: calc((100% - 100px) / 2);
@@ -70,6 +69,12 @@
   width: 180px;
   height: 180px;
 }
+@media screen and (min-width: 768px) {
+  .our-ment-icon {
+    margin: auto;
+    margin-bottom: 16px;
+  }
+}
 .our-ment-name {
   text-align: center;
   font-size: 20px;
@@ -77,6 +82,7 @@
   line-height: 1.2;
   margin-bottom: 4px;
 }
+
 @media screen and (min-width: 768px) {
   .our-ment-name {
     font-size: 28px;
