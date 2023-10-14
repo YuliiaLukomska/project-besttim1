@@ -21,6 +21,7 @@
     letter-spacing: -0.04em;
 }
 .courses-ofer {
+    width: 335px;
     color:var(--color-white);
     font-size: 14px;
     font-weight: 400;
@@ -97,9 +98,6 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.courses-container {
-    width: 768px;
-}
 .courses-about {
     gap: 58px;
     margin-bottom: 50px;
@@ -112,7 +110,11 @@
     font-size: 16px;
     line-height: 1.25;
 }
+.courses-list {
+    flex-direction: row;
+}
 .courses-card {
+    position: relative;
     padding: 32px;
     width: 342px;
     height: 452px;
@@ -134,7 +136,76 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+    .courses {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .courses-about {
+        display: flex;
+        justify-content: space-between;
+        gap: 410px;
+        margin-bottom: 50px;
+    }
+    .courses-title {
+        font-size: 48px;
+        line-height: 1.13;
+    }
+    .courses-ofer {
+        width: 405px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .courses-card:before {
+        content: '0' counter(item) '  ';
+        counter-increment: item;
+        color: var(--color-grey);
+    }
+    .courses-card {
+        width: 347px;
+        height: 452px;
+    }
+    .courses-subtitle {
+        width: 265px;
+        margin-top: 32px;
+        margin-bottom: 180px;
+    }
+    .courses-text {
+        width: 283px;
+    }
+}
 
-@media screen and (min-width: 1440px) {}
-
+/* 1440 */
+@media screen and (min-width: 1440px) {
+    .courses {
+        padding-top: 75px;
+        padding-bottom: 75px;
+      }
+    .courses-about {
+        gap: 410px;
+        margin-bottom: 50px;
+      }
+    .courses-title {
+        font-size: 48px;
+        line-height: 1.12;
+      }
+    .courses-ofer {
+        font-size: 16px;
+        line-height: 1.25;
+      }
+    .courses-card {
+        width: 400px;
+        height: 452px;
+      }
+    .card-link {
+        gap: 286px;
+        margin-right: 38px;
+      }
+    .courses-subtitle {
+        width: 265px;
+        margin-bottom: 200px;
+      }
+    .courses-text {
+        width: 336px;
+    }
+}
