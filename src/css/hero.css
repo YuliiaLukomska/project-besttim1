@@ -25,7 +25,7 @@
 
 .hero-text {
   font-size: 14px;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   letter-spacing: -0.02em;
   margin-bottom: 40px;
 }
@@ -49,7 +49,7 @@
   color: var(--color-white);
   width: 67px;
   font-size: 14px;
-  line-height: 1.3; /* 128.571% */
+  line-height: 1.3;
   letter-spacing: -0.04em;
 }
 
@@ -94,19 +94,19 @@
   width: 57px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.12; /* 112.5% */
+  line-height: 1.12;
   letter-spacing: -0.04em;
 }
 
 .hero-reviews-accent {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.28; /* 128.571% */
+  line-height: 1.28;
   color: var(--color-grey);
   margin-bottom: 4px;
 }
 
-.hero-man-icon {
+.hero-man-img {
   margin: auto;
 }
 
@@ -152,7 +152,7 @@
 
   .hero-link-text {
     font-size: 16px;
-    line-height: 1.25; /* 125% */
+    line-height: 1.25;
     width: 82px;
   }
 
@@ -171,7 +171,7 @@
     margin-bottom: 8px;
   }
 
-  .hero-man-icon {
+  .hero-man-img {
     width: 393px;
   }
 }
@@ -203,7 +203,7 @@
     align-items: flex-end;
   }
 
-  .hero-man-icon {
+  .hero-man-img {
     width: 397px;
   }
 }
