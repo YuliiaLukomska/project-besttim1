@@ -26,8 +26,10 @@ img {
 }
 input {
   outline: none;
+  border: none;
 }
 button {
   cursor: pointer;
   outline: none;
+  border: none;
 }

@@ -4,10 +4,23 @@
   --color-fill: #1d1d1d;
   --color-fill-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   --color-light: #bea69e;
+  --color-grey: rgba(255, 255, 255, 0.5);
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
   color: var(--color-white);
   background-color: var(--color-black);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
