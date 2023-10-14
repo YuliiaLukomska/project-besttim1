@@ -7,10 +7,9 @@
 }
 
 .footer-container {
-  font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  line-height: 1.285;
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .footer-logo {
@@ -72,7 +71,7 @@
   height: 60px;
   flex-shrink: 0;
   border-radius: 12px;
-  padding: 20px 129px 20px 18px;
+  padding: 20px 0 20px 18px;
   font-size: 16px;
   line-height: 1.25;
   border: none;
@@ -96,7 +95,6 @@
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -106,7 +104,9 @@
 
   .footer-container {
     padding-top: 50px;
+    padding-bottom: 25px;
   }
+
   .footer-box {
     display: flex;
   }
@@ -155,6 +155,7 @@
   .footer-block {
     gap: 50px;
     margin-right: 137px;
+    margin-bottom: 50px;
     margin-left: 285px;
   }
 
@@ -167,10 +168,6 @@
 @media screen and (min-width: 1440px) {
   .footer {
     background-image: url('../img/footer/footer-desk-big.png');
-  }
-
-  .footer-container {
-    padding-top: 50px;
   }
 
   .footer-block {
