@@ -1,18 +1,28 @@
 <header class="header">
   <div class="container container-header">
-    <div class="nav">
+    <nav class="nav">
       <div class="nav-container">
         <a class="header-logo" href="./index.html"
           ><svg class="logo-svg" width="123" height="16">
-            <use href="../img/icons.svg#icon-logo"></use>
+            <use href="./img/icons.svg#icon-logo"></use>
           </svg>
         </a>
         <ul class="nav-list">
-          <li><a class="nav-link" href="">About us</a></li>
-          <li><a class="nav-link" href="">Our courses </a></li>
-          <li><a class="nav-link" href="">Our mentors</a></li>
-          <li><a class="nav-link" href="">Reviews</a></li>
-          <li><a class="nav-link" href="">Contacts</a></li>
+          <li class="nav-list-li">
+            <a class="nav-link" href="#about-us">About us</a>
+          </li>
+          <li class="nav-list-li">
+            <a class="nav-link" href="#courses">Our courses </a>
+          </li>
+          <li class="nav-list-li">
+            <a class="nav-link" href="#mentors">Our mentors</a>
+          </li>
+          <li class="nav-list-li">
+            <a class="nav-link" href="#reviews">Reviews</a>
+          </li>
+          <li class="nav-list-li">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
         </ul>
         <div class="mob-nav">
           <a class="header-singup-mob" href="#sing-up">
@@ -25,14 +35,73 @@
               </svg>
             </div>
           </a>
-          <button class="menu">
-            <svg width="32" height="22">
+          <button
+            class="menu js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="menu-svg" width="32" height="22">
               <use href="./img/icons.svg#icon-menu-mob"></use>
             </svg>
           </button>
         </div>
       </div>
       <a class="header-singup" href="#sign-up">Sing Up</a>
-    </div>
+    </nav>
   </div>
 </header>
+<!--menu-->
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+    <svg class="svg-close" width="32" height="32">
+      <use href="./img/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <nav class="nav-menu">
+    <ul class="nav-list-menu">
+      <li><a class="nav-link-menu" href="#about-us">About us</a></li>
+      <li><a class="nav-link-menu" href="#courses">Our courses </a></li>
+      <li><a class="nav-link-menu" href="#mentors">Our mentors</a></li>
+      <li><a class="nav-link-menu" href="#reviews">Reviews</a></li>
+      <li><a class="nav-link-menu" href="#contacts">Contacts</a></li>
+    </ul>
+  </nav>
+  <box class="menu-img"></box>
+</div>
+<!--js-->
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script>
+  (() => {
+    const mobileMenu = document.querySelector('.js-menu-container');
+    const openMenuBtn = document.querySelector('.js-open-menu');
+    const closeMenuBtn = document.querySelector('.js-close-menu');
+
+    const toggleMenu = () => {
+      const isMenuOpen =
+        openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+      openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+      mobileMenu.classList.toggle('is-open');
+
+      const scrollLockMethod = !isMenuOpen
+        ? 'disableBodyScroll'
+        : 'enableBodyScroll';
+      bodyScrollLock[scrollLockMethod](document.body);
+    };
+
+    openMenuBtn.addEventListener('click', toggleMenu);
+    closeMenuBtn.addEventListener('click', toggleMenu);
+
+    // Close the mobile menu on wider screens if the device orientation changes
+    window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+      if (!e.matches) return;
+      mobileMenu.classList.remove('is-open');
+      openMenuBtn.setAttribute('aria-expanded', false);
+      bodyScrollLock.enableBodyScroll(document.body);
+    });
+  })();
+</script>
