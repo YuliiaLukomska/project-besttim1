@@ -123,10 +123,10 @@
   font-weight: 700;
 }
 .menu-img {
-  width: 329px;
-  height: 218px;
+  width: 218px;
+  height: 329px;
   background-image: url(/img/header/background-mobile.png);
-  background-size: 218px 218px;
+  background-size: 218px 329px;
   background-repeat: no-repeat;
 }
 @media (min-resolution: 192dpi) {
