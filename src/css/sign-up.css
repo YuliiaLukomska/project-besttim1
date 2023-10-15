@@ -43,25 +43,24 @@
 
 .signup-title {
     font-size: 28px;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: -0.04em;
-    width: 93px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width:768px) {
     .signup-title {
         font-size: 48px;
-        line-height: 1.1em;
+        line-height: 1.1;
         letter-spacing: -0.04em;
         margin-bottom: 20px;
-        width: 159px;
     }
 }
 
 .signup-span {
     font-size: 28px;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: -0.04em;
     color: #BEA69E;
     font-weight: 500;
@@ -70,27 +69,26 @@
 @media screen and (min-width:768px) {
     .signup-span {
         font-size: 48px;
-        line-height: 1.1em;
+        line-height: 1.1;
         letter-spacing: -0.04em;
     }
 }
 
 .signup-paragraph {
     font-size: 14px;
-    line-height: 1.28em;
+    line-height: 1.28;
     letter-spacing: -0.02em;
-    padding-top: 20px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
     width: 295px;
 }
 
 @media screen and (min-width:768px) {
     .signup-paragraph {
         font-size: 16px;
-        line-height: 1.25em;
+        line-height: 1.25;
         letter-spacing: -0.02em;
         width: 480px;
-        padding-bottom: 26px;
+        margin-bottom: 26px;
     }
 }
 
@@ -106,10 +104,13 @@ input {
     border: 1px solid rgba(255, 255, 255, 0.20);
     background-color: transparent;
     margin-top: 8px;
-    padding: 0 0 0 18px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25em;
+    padding: 14px 10px 14px 18px;
+    line-height: 1.25;
+    color: #FFF;
+}
+
+.input-signup:focus {
+    border: 1px solid #FFFFFF;
 }
 
 @media screen and (min-width:768px) {
@@ -130,7 +131,12 @@ input {
     background-color: transparent;
     margin-top: 8px;
     margin-bottom: 40px;
-    padding: 20px 0 79px 18px;
+    padding: 20px 20px 79px 18px;
+    color: #FFF;
+}
+
+.modal-textarea:focus {
+    border: 1px solid #FFFFFF;
 }
 
 @media screen and (min-width:768px) {
@@ -150,13 +156,19 @@ input {
     color: var(--black, #121212);
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.25em;
+    line-height: 1.25;
     text-transform: uppercase;
     display: flex;
     width: 335px;
     padding: 14px 127px;
     justify-content: center;
     align-items: center;
+}
+
+.signup-button:hover,
+.signup-button:focus {
+    background: #1D1D1D;
+    color: var(--brown, #BEA69E);
 }
 
 @media screen and (min-width:768px) {
@@ -166,7 +178,7 @@ input {
         width: 479px;
         height: 60px;
         font-size: 18px;
-        line-height: 1.55em;
+        line-height: 1.55;
     }
 }
 
@@ -174,7 +186,7 @@ input {
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     font-weight: 400;
-    line-height: 1.33em;
+    line-height: 1.33;
     width: 335px;
     height: 48px;
     font-style: normal;
@@ -184,7 +196,7 @@ input {
     .confirmation-paragraph {
         color: rgba(255, 255, 255, 0.50);
         font-size: 14px;
-        line-height: 1.28em;
+        line-height: 1.28;
         width: 480px;
         height: 36px;
     }
@@ -194,7 +206,7 @@ input {
     color: rgba(255, 255, 255, 0.50);
     font-size: 11px;
     font-weight: 400;
-    line-height: 1.33em;
+    line-height: 1.33;
     text-decoration-line: underline;
 }
 
