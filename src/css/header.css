@@ -61,12 +61,16 @@
   display: flex;
   gap: 14px;
   align-items: center;
-  padding-top: 9px;
-  padding-bottom: 9px;
 }
 
 .logo-svg {
   fill: var(--color-white, #ffffff);
+  width: 127px;
+  height: 20px;
+}
+.header-singup-mob {
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 .header-singup-container-mob {
   display: flex;
@@ -193,10 +197,7 @@
     width: 504px;
     padding: 0 20px;
   }
-  .mob-nav {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
+
   .header-singup {
     width: 188px;
     display: flex;
