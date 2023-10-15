@@ -68,6 +68,13 @@
   text-transform: uppercase;
 }
 
+.social-link:hover {
+  color: rgba(190, 166, 158, 1);
+}
+
+.footer-nav-link:hover {
+  color: rgba(190, 166, 158, 1);
+}
 .feedback-form {
   display: flex;
   gap: 8px;
