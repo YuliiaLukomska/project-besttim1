@@ -49,8 +49,6 @@
     overflow: hidden;
     color: var(--color-light);
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.14;
     letter-spacing: -0.035em;
     text-transform: uppercase;
@@ -68,7 +66,6 @@
     .marquee {
         font-size: 59px;
         line-height: 1.08;
-        letter-spacing: -0.02em;
     }
 }
 
