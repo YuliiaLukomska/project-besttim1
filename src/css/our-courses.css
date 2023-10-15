@@ -123,8 +123,9 @@
 .courses-card {
     position: relative;
     padding: 32px;
-    flex-basis: calc((100% - 40px) / 3);
+    flex-basis: calc((100% - 20px) / 2);
     height: 452px;
+    min-width: 342px;
   }
 .card-link {
     gap: 232px;
@@ -169,7 +170,7 @@
         color: var(--color-grey);
     }
     .courses-card {
-        width: 347px;
+        flex-basis: calc((100% - 40px) / 3);
         height: 452px;
     }
     .courses-subtitle {
@@ -198,7 +199,6 @@
         line-height: 1.25;
       }
     .courses-card {
-        width: 400px;
         height: 452px;
       }
     .card-link {
