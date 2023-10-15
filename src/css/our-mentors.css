@@ -71,8 +71,7 @@
 }
 @media screen and (min-width: 1280px) {
   .our-ment-li.mia-icon {
-    max-width: 194px;
-    flex-basis: 100%;
+    min-width: 194px;
   }
 }
 .our-ment-icon {
