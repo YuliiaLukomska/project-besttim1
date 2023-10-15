@@ -1,0 +1,118 @@
+.accent {
+  color: var(--color-light);
+}
+.our-mentors {
+  padding: 40px 0;
+}
+@media screen and (min-width: 768px) {
+  .our-mentors {
+    padding: 50px 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-mentors {
+    padding: 75px 0;
+  }
+}
+.our-ment {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .our-ment {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+  }
+}
+.our-ment-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+@media screen and (min-width: 768px) {
+  .our-ment-ul {
+    gap: 100px;
+    row-gap: 93px;
+    padding: 0 108px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-ment-ul {
+    padding: 0 23px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .our-ment-ul {
+    padding: 0 103px;
+  }
+}
+.our-ment-li {
+  flex-basis: 100%;
+  max-width: 185px;
+}
+@media screen and (min-width: 768px) {
+  .our-ment-li {
+    flex-basis: calc((100% - 100px) / 2);
+    max-width: 194px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-ment-li {
+    flex-basis: calc((100% - 300px) / 4);
+    max-width: 180px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-ment-li.mia-icon {
+    min-width: 194px;
+  }
+}
+.our-ment-icon {
+  margin-bottom: 16px;
+  width: 180px;
+  height: 180px;
+}
+@media screen and (min-width: 768px) {
+  .our-ment-icon {
+    margin: auto;
+    margin-bottom: 16px;
+  }
+}
+.text-li {
+  text-align: center;
+}
+
+.our-ment-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-ment-name {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}
+
+.our-ment-prog {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+}
+@media screen and (min-width: 768px) {
+  .our-ment-prog {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
