@@ -143,7 +143,7 @@
     .courses-about {
         display: flex;
         justify-content: space-between;
-        gap: 410px;
+        gap: 50px;
         margin-bottom: 50px;
     }
     .courses-title {
@@ -179,10 +179,6 @@
     .courses {
         padding-top: 75px;
         padding-bottom: 75px;
-      }
-    .courses-about {
-        gap: 410px;
-        margin-bottom: 50px;
       }
     .courses-title {
         font-size: 48px;
