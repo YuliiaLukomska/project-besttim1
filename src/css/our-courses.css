@@ -32,6 +32,7 @@
     counter-reset: item;
     list-style-type: none;
     margin: 0;
+    padding: 0;
 }
 .courses-card:before {
     content: '0' counter(item) '  ';
@@ -96,6 +97,8 @@
     padding-bottom: 50px;
 }
 .courses-about {
+    display: flex;
+    flex-direction: row;
     gap: 58px;
     margin-bottom: 50px;
 }
