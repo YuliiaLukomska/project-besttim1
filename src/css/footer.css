@@ -98,6 +98,11 @@
   border: none;
 }
 
+.footer-btn:hover,
+.footer-btn:focus {
+  background: var(--white, #fff);
+  color: var(--black, #121212);
+}
 .footer-text {
   display: flex;
   justify-content: space-between;
