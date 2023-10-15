@@ -1,39 +1,32 @@
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.advertisement {
+    padding: 0 0 40px;
 }
 
-.advertisement {
-    padding: 40px 0;
+.advertisement-container {
+    padding: 0;
 }
 
 @media screen and (min-width: 768px) {
     .advertisement {
-        padding: 50px 0;
+        padding: 0 0 50px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .advertisement {
-        padding: 75px 0;
+        padding: 0 0 75px;
     }
 }
 
 .svg-vector {
-    fill: white;
+    stroke-width: 1px;
+    stroke: rgba(255, 255, 255, 0.20);
+    min-width: 375px;
 }
 
 @media screen and (min-width: 768px) {
     .svg-vector {
-        width: 768px;
+        min-width: 768px;
     }
 }
 
@@ -50,10 +43,12 @@
 }
 
 .marquee {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    overflow: hidden;
     color: var(--color-light);
     font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.14;
     letter-spacing: -0.035em;
     text-transform: uppercase;
@@ -71,7 +66,6 @@
     .marquee {
         font-size: 59px;
         line-height: 1.08;
-        letter-spacing: -0.02em;
     }
 }
 
@@ -89,7 +83,7 @@
 .marquee__line {
     flex-shrink: 0;
     margin: 0;
-    padding: 20px 15px;
+    padding: 0 15px;
     min-width: 100%;
     white-space: nowrap;
     animation-name: marqueeLine;
@@ -100,19 +94,19 @@
 
 @media screen and (min-width: 768px) {
     .marquee__line {
-        padding: 24px 15px;
+        padding: 0 15px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .marquee__line {
-        padding: 24px 20px;
+        padding: 0 20px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .marquee__line {
-        padding: 24px 100px;
+        padding: 0 100px;
     }
 }
 
