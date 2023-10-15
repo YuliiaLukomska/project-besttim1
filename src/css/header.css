@@ -99,9 +99,6 @@
 }
 .nav-menu {
   margin: 180px 101px auto 20px;
-  /*position: absolute;
-  top: 180px;
-  left: 20px;*/
 }
 .nav-list-menu {
   display: flex;
@@ -111,7 +108,6 @@
 }
 .nav-link-menu {
   color: var(--black, #121212);
-  font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
