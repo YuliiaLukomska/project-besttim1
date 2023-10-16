@@ -1,20 +1,26 @@
-.container-signup {
+.signup-section {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 @media screen and (min-width:768px) {
-    .container-signup {
+    .signup-section {
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-right: 256px;
     }
+}
+
+
+@media screen and (min-width:1280px) {
+    .signup-section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
 }
 
 @media screen and (min-width:1280px) {
     .container-signup {
-        padding-top: 75px;
-        padding-bottom: 75px;
         display: inline-flex;
         align-items: flex-start;
         gap: 60px;
@@ -113,6 +119,13 @@ input {
     border: 1px solid #FFFFFF;
 }
 
+.input-signup::placeholder {
+    color: #FFF;
+    opacity: 0.7;
+}
+
+
+
 @media screen and (min-width:768px) {
     .input-signup {
         width: 480px;
@@ -133,10 +146,17 @@ input {
     margin-bottom: 40px;
     padding: 20px 20px 79px 18px;
     color: #FFF;
+    overflow: hidden;
+    resize: none;
 }
 
 .modal-textarea:focus {
     border: 1px solid #FFFFFF;
+}
+
+.modal-textarea::placeholder {
+    color: #FFF;
+    opacity: 0.7;
 }
 
 @media screen and (min-width:768px) {
