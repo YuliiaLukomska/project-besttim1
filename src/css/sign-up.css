@@ -102,7 +102,7 @@ input {
 }
 
 .input-signup {
-  width: 320px;
+  width: 100%;
   max-width: 335px;
   height: 46px;
   flex-shrink: 0;
@@ -135,7 +135,7 @@ input {
 }
 
 .modal-textarea {
-  width: 320px;
+  width: 100%;
   max-width: 335px;
   height: 112px;
   flex-shrink: 0;
@@ -178,7 +178,7 @@ input {
   line-height: 1.25;
   text-transform: uppercase;
   display: flex;
-  width: 320px;
+  width: 100%;
   max-width: 335px;
   padding: 14px 127px;
   justify-content: center;
