@@ -1,21 +1,23 @@
 .footer {
   background-image: url('/img/footer/footer-mob.png');
+  background-size: contain;
   background-size: auto;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 @media (min-resolution: 192dpi) {
   .footer {
     background-image: url('/img/footer/footer-mob@2x.png');
+    background-size: contain;
   }
 }
 
 .footer-container {
   font-size: 14px;
-  padding-top: 40px;
-  padding-bottom: 20px;
 }
 
 .footer-box {
@@ -121,10 +123,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    background-image: url('/img/footer/footer-tablet.png');
-  }
-
-  .footer-container {
+    background-image: url('/img/footer/footer-tab.png');
     padding-top: 50px;
     padding-bottom: 25px;
   }
@@ -169,18 +168,17 @@
 
 @media (min-resolution: 192dpi) and (min-width: 768px) {
   .footer {
-    background-image: url('/img/footer/footer-tablet@2x.png');
+    background-image: url('/img/footer/footer-tab@2x.png');
+    background-size: contain;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-    background-image: url('/img/footer/footer-desk.png');
+    background-image: url('/img/footer/footer-desc.png');
+    background-size: contain;
   }
 
-  .footer-container {
-    padding-top: 50px;
-  }
   .footer-box {
     margin-bottom: 50px;
   }
@@ -201,13 +199,15 @@
 
 @media (min-resolution: 192dpi) and (min-width: 1280px) {
   .footer {
-    background-image: url('/img/footer/footer-desk@2x.png');
+    background-image: url('/img/footer/footer-desc@2x.png');
+    background-size: contain;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .footer {
-    background-image: url('../img/footer/footer-desk-big.png');
+    background-image: url('/img/footer/footer-desc.png');
+    background-size: contain;
   }
   .contacts {
     margin-right: 341px;
@@ -226,6 +226,7 @@
 
 @media (min-resolution: 192dpi) and (min-width: 1440px) {
   .footer {
-    background-image: url('/img/footer/footer-desk-big@2x.png');
+    background-image: url('/img/footer/footer-desc@2x.png');
+    background-size: contain;
   }
 }
