@@ -3,7 +3,7 @@
 }
 
 .hero-container {
-  width: 335px;
+  max-width: 335px;
   padding: 40px 20px 0;
   background-color: var(--color-fill);
   border-radius: 30px;
@@ -45,6 +45,7 @@
   gap: 4px;
 }
 
+
 .hero-link-text {
   color: var(--color-white);
   width: 67px;
@@ -57,7 +58,14 @@
   fill: var(--color-white);
   margin: auto 0;
   animation: bounce 2s infinite reverse;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.hero-link:hover .arrow-icon,
+.hero-link:focus .arrow-icon {
+  fill: var(--color-light);
+}
+
 
 @keyframes bounce {
   0% {
@@ -119,7 +127,7 @@
   }
 
   .hero-container {
-    width: 704px;
+    max-width: 704px;
     padding: 64px 32px 0;
   }
 
@@ -186,7 +194,7 @@
   .hero-container {
     display: flex;
     gap: 20px;
-    width: 1080px;
+    max-width: 1080px;
     padding: 80px 50px 0;
     margin: 0 auto;
   }
