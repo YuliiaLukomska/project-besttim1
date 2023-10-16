@@ -5,8 +5,9 @@
 /*background*/
 /*mob*/
 .header-hero-wrapper {
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background: url(/img/h-h-background/graphic-mobile.png);
+  background-size: contain;
 }
 @media (min-resolution: 192dpi) {
   .header-hero-wrapper {
