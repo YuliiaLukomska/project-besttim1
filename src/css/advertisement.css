@@ -1,125 +1,125 @@
-.advertisement {
-    padding: 0 0 40px;
+.ticker {
+  padding: 0 0 40px;
 }
 
-.advertisement-container {
-    padding: 0;
+.ticker-container {
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .advertisement {
-        padding: 0 0 50px;
-    }
+  .ticker {
+    padding: 0 0 50px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .advertisement {
-        padding: 0 0 75px;
-    }
+  .ticker {
+    padding: 0 0 75px;
+  }
 }
 
 .svg-vector {
-    stroke-width: 1px;
-    stroke: rgba(255, 255, 255, 0.20);
-    min-width: 375px;
+  stroke-width: 1px;
+  stroke: rgba(255, 255, 255, 0.2);
+  min-width: 375px;
 }
 
 @media screen and (min-width: 768px) {
-    .svg-vector {
-        min-width: 768px;
-    }
+  .svg-vector {
+    min-width: 768px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .svg-vector {
-        width: 1280px;
-    }
+  .svg-vector {
+    width: 1280px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .svg-vector {
-        width: 1440px;
-    }
+  .svg-vector {
+    width: 1440px;
+  }
 }
 
 .marquee {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    overflow: hidden;
-    color: var(--color-light);
-    font-size: 28px;
-    line-height: 1.14;
-    letter-spacing: -0.035em;
-    text-transform: uppercase;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  overflow: hidden;
+  color: var(--color-light);
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-    .marquee {
-        font-size: 40px;
-        line-height: 1.25;
-        letter-spacing: -0.02em;
-    }
+  .marquee {
+    font-size: 40px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .marquee {
-        font-size: 59px;
-        line-height: 1.08;
-    }
+  .marquee {
+    font-size: 59px;
+    line-height: 1.08;
+  }
 }
 
 .marquee_inner {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .marquee_inner {
-        gap: 24px;
-    }
+  .marquee_inner {
+    gap: 24px;
+  }
 }
 
 .marquee__line {
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0 15px;
-    min-width: 100%;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0 15px;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
 
 @media screen and (min-width: 768px) {
-    .marquee__line {
-        padding: 0 15px;
-    }
+  .marquee__line {
+    padding: 0 15px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .marquee__line {
-        padding: 0 20px;
-    }
+  .marquee__line {
+    padding: 0 20px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .marquee__line {
-        padding: 0 100px;
-    }
+  .marquee__line {
+    padding: 0 100px;
+  }
 }
 
 .your-photo {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 @keyframes marqueeLine {
-    from {
-        transform: translateX(0);
-    }
+  from {
+    transform: translateX(0);
+  }
 
-    to {
-        transform: translateX(-100%);
-    }
+  to {
+    transform: translateX(-100%);
+  }
 }
