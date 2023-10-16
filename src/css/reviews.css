@@ -25,6 +25,7 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
+  margin: 0 auto;
 }
 .student-container {
   display: flex;
@@ -93,6 +94,7 @@
   .reviews-item{
     max-width: 640px;
     position: relative;
+    margin: 0 auto;
   }
   .reviews-title {
     font-size: 48px;
@@ -102,6 +104,7 @@
 }
   .student-p {
     font-size: 14px;
+
   }
 
   .stars-list {
@@ -132,6 +135,7 @@
   .reviews-item {
     position: relative;
     max-width: 530px;
+    margin: 0 auto;
   }
   .reviews-title {
     font-size: 48px;
@@ -150,12 +154,13 @@
   }
   .reviews-text {
     font-size: 16px;
+    
   }
 }
 
 @media screen and (min-width: 1440px) {
   .reviews-section {
-    padding-top: 74px;
+    padding-top: 75px;
     padding-bottom: 150px;
   }
   .reviews-list {
@@ -164,6 +169,7 @@
   }
   .reviews-item{
     max-width: 610px;
+    margin: 0 auto;
   }
   .reviews-item:last-child {
     display: block;
