@@ -28,7 +28,7 @@
 }
 .student-container {
   display: flex;
-  gap: 10p;
+  gap: 10pх;
 }
 .student-photo {
   width: 56px;
@@ -53,11 +53,11 @@
   font-weight: 400;
   line-height: 1.33;
   letter-spacing: -0.02em;
+  margin-bottom: 4px;
 }
 .stars-list {
   display: flex;
   gap: 4px;
-  margin-top: 4px;
   margin-bottom: 20px;
 }
 .star-item {
@@ -83,6 +83,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .reviews-item{
+    max-width: 640px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -90,11 +93,15 @@
     display: flex;
     gap: 20px;
   }
+  .reviews-item{
+    max-width: 530px;
+  }
   .reviews-item:last-child {
     display: block;
   }
   .reviews-item {
     position: relative;
+    max-width: 530px;
   }
   .stars-list {
     position: absolute;
@@ -107,6 +114,9 @@
   .reviews-list {
     display: flex;
     gap: 20px;
+  }
+  .reviews-item{
+    max-width: 610px;
   }
   .reviews-item:last-child {
     display: block;
