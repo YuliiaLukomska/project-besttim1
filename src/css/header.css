@@ -12,16 +12,19 @@
 @media (min-resolution: 192dpi) {
   .header-hero-wrapper {
     background: url(/img/h-h-background/graphic-mobile_2x.png);
+    background-size: contain;
   }
 }
 /*tablet*/
 @media screen and (min-width: 768px) {
   .header-hero-wrapper {
     background: url(/img/h-h-background/graphic-tablet.png);
+    background-size: contain;
   }
   @media (min-resolution: 192dpi) {
     .header-hero-wrapper {
       background: url(/img/h-h-background/graphic-tablet_2x.png);
+      background-size: contain;
     }
   }
 }
@@ -29,10 +32,12 @@
 @media screen and (min-width: 1280px) {
   .header-hero-wrapper {
     background: url(/img/h-h-background/graphic-desktop.png);
+    background-size: contain;
   }
   @media (min-resolution: 192dpi) {
     .header-hero-wrapper {
       background: url(/img/h-h-background/graphic-desktop_2x.png);
+      background-size: contain;
     }
   }
 }
@@ -40,10 +45,12 @@
 @media screen and (min-width: 1440px) {
   .header-hero-wrapper {
     background: url(/img/h-h-background/graphic-desktop-1440.png);
+    background-size: contain;
   }
   @media (min-resolution: 192dpi) {
     .header-hero-wrapper {
       background: url(/img/h-h-background/graphic-desktop-1440_2x.png);
+      background-size: contain;
     }
   }
 }
