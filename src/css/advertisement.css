@@ -3,12 +3,19 @@
 }
 
 .ticker-container {
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (min-width: 768px) {
   .ticker {
     padding: 0 0 50px;
+  }
+  .ticker-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
@@ -18,13 +25,13 @@
   }
 }
 
-.svg-vector {
+/* .svg-vector {
   stroke-width: 1px;
   stroke: rgba(255, 255, 255, 0.2);
   min-width: 375px;
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .svg-vector {
     min-width: 768px;
   }
@@ -32,15 +39,15 @@
 
 @media screen and (min-width: 1280px) {
   .svg-vector {
-    width: 1280px;
+    min-width: 1280px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .svg-vector {
-    width: 1440px;
+    min-width: 1440px;
   }
-}
+} */
 
 .marquee {
   display: flex;
@@ -72,7 +79,7 @@
 .marquee_inner {
   display: flex;
   gap: 20px;
-}
+  }
 
 @media screen and (min-width: 768px) {
   .marquee_inner {
